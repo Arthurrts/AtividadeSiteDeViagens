@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 2% 8%;
+}
+
+header{
+    height: 40vh;
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2021/03/fernando-de-noronha-capa-01.jpg);
+    background-position-y: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 62px;
+}
+
+#title{
+    display: flex;
+}
+
+#title h1{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15vh;
+    font-family: 'Spectral', serif;
+    border: 3px solid #56A5FE;
+    background-color: white;
+    color: #56A5FE;
+    border-radius: 30px;
+    padding: 12px;
+    width: 40%;
+    text-align: center;
+    box-shadow: #56A5FE 1px 1px 8px;
+}
+
+#menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #56A5FE;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#menu ul a{
+    color: White;
+    text-shadow: #56A5FE 2px 2px 2px;
+    padding: 20px 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+    display: block;
+}
+
+#menu ul a:hover{
+    background-color: #84d6f1;
+}
+
+body{
+    background-color: #f2f6f7;
+}
+
+#cultura{
+    background-color: #56A5FE;
+    padding: 20px;
+}
+
+#cultura h2{
+    display: block;
+    margin: 0 auto;
+    font-family: 'Spectral', serif;
+    border: 3px solid #56A5FE;
+    background-color: white;
+    color: #56A5FE;
+    border-radius: 30px;
+    padding: 2px;
+    width: 20%;
+    text-align: center;
+    box-shadow: #56A5FE 1px 1px 8px;
+}
+
+.text{
+    color: #1C1C1C;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#intro{
+    text-align: center;
+}
+
+#intro-img1{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+#cult-img1{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+#intro-img1 img, #cult-img1 img{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#h3-1, #h3-2, #h3-3, #h3-4{
+    border: 1px solid #56A5FE;
+    background-color: white;
+    color: #56A5FE;
+    border-radius: 30px;
+    padding: 8px;
+    box-shadow: #56A5FE 1px 1px 8px;
+}
+
+#h3-1{
+    width: 7%;
+}
+
+#h3-2{
+    width: 14%;
+}
+
+#h3-3{
+    width: 10%;
+}
+
+#h3-4{
+    width: 29%;
+}
+
+.margin-ul{
+    margin-left: 16px;
+}
+
+footer{
+    background-color: #56A5FE;
+}
+
+#redes{
+    width: 30%;
+}
+
+#redes img{
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    margin: 20px;
+    padding: 10px;
+    width: 10%
+}
+
+#fim-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
